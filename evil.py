@@ -4,7 +4,7 @@ import time
 import arguably
 
 @arguably.command
-def ping(destination, *, evil = False, count = 5, ttl = 64, timeout = 1.0, interval = 1.0, size = 56):
+def ping(destination, *, count = 5, evil = False, interval = 1.0, size = 56, ttl = 64, timeout = 1.0):
     """
     send ICMP ECHO_REQUEST to network hosts
     Args:
