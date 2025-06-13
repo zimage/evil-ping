@@ -6,7 +6,7 @@ usage: evil.py [-h] [-c COUNT] [-E] [-i INTERVAL] [-s SIZE] [-t TTL] [-W TIMEOUT
 send ICMP ECHO_REQUEST to network hosts
 
 positional arguments:
-  destination               DNS name or IP address (type: str)
+  destination              DNS name or IP address (type: str)
 
 optional arguments:
   -h, --help               show this help message and exit

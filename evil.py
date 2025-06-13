@@ -8,7 +8,7 @@ def ping(destination, *, count = 5, evil = False, interval = 1.0, size = 56, ttl
     """
     send ICMP ECHO_REQUEST to network hosts
     Args:
-        destination:  DNS name or IP address
+        destination: DNS name or IP address
         count: [-c] stop after {count} replies
         evil: [-E] send evil packets
         interval: [-i] seconds between sending each packet
