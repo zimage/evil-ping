@@ -1,6 +1,6 @@
 # evil-ping
 
-```bash
+```
 usage: evil.py [-h] [-E] [-c COUNT] [-t TTL] [-W TIMEOUT] [-i INTERVAL] [-s SIZE] destination
 
 send ICMP ECHO_REQUEST to network hosts
